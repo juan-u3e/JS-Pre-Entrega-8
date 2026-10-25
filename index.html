@@ -22,7 +22,10 @@
                         <h4>Nombre</h4><input type="text"  name="nombre" placeholder="Ej: Juan Pérez" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$" title="Solo se permiten letras y espacios, sin números ni símbolos" required>
                     </li>
                     <li>
-                        <h4>Edad</h4><input name="edad" type="number">
+                        <h4>Edad</h4><input name="edad" type="number" min="1" step="1" >
+                    </li>
+                    <li>
+                        <h4>Dni</h4><input name="dni" type="number">
                     </li>
                     <li>
                         <h4>Disciplina</h4>                    
@@ -65,7 +68,6 @@
         </div>
         <h3>Tarjeta de miembros</h3>
         <div id="container">
-
 
         </div>
     </main>
