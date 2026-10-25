@@ -17,10 +17,6 @@ if (!miembrosGuardados) {
 const container = document.getElementById("container");
 const formulario = document.getElementById("form");
 
-setInterval(() => {
-    alert("Cargue los datos del formulario para agregar un nuevo miembro")
-}, 20000)
-
 function crearCard(miembro) {
         const {nombre, edad, dni, disciplina, entrenamiento, categoria} = miembro
         const card = document.createElement("div");
